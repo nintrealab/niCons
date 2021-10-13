@@ -1,6 +1,6 @@
 # 
 
-[![NPM version](http://img.shields.io/npm/v/create-index.svg?style=flat-square)](https://www.npmjs.org/package/nicons)
+[![NPM version](http://img.shields.io/npm/v/nicons.svg?style=flat-square)](https://www.npmjs.org/package/nicons)
 [![js-canonical-style](https://img.shields.io/badge/code%20style-canonical-blue.svg?style=flat-square)](https://github.com/nintrealabs/niCons)
 
 
