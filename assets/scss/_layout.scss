@@ -1,0 +1,22 @@
+@import "var";
+
+@each $name,$size in $screen-size{
+
+	@media screen and (max-width: $size) {
+
+        @each $color in $colors{
+            .#{$name}\:text-#{$color}{
+                color:var(--ni-#{$color})
+            }
+            .#{$name}\:bg-#{$color}{
+                background:var(--ni-#{$color})
+            }
+            .#{$name}\:border-#{$color}{
+                border-color: var(--ni-#{$color});
+            }
+        
+        }
+
+	}
+
+}

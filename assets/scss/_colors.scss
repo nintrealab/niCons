@@ -2,14 +2,13 @@
 @import "var";
 
 @each $name in $colors{
-    .text-#{$name}{
+    .\:text-#{$name}{
         color:var(--ni-#{$name})
-        
     }
-    .bg-#{$name}{
+    .\:bg-#{$name}{
         background:var(--ni-#{$name})
     }
-    .border-#{$name}{
+    .\:border-#{$name}{
         border-color: var(--ni-#{$name});
     }
 

@@ -3554,5 +3554,14 @@ $font-size:(
     "lg":"20px",
     "md":"16px",
     "sm":"13px",
-    "tn":"8px"
-)
+    "xs":"8px"
+);
+$screen-size:(
+    "xxxl": "1920px",
+    "xxl": "1400px",
+    "xl": "1200px",
+    "lg": "992px",
+    "md": "768px",
+    "sm": "576px",
+    "xs": "450px",
+);
