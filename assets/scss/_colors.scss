@@ -2,19 +2,19 @@
 @import "var";
 
 @each $name in $colors{
-    .\:text-#{$name}{
+    .text-#{$name}{
         color:var(--ni-#{$name})
     }
-    .\:bg-#{$name}{
+    .bg-#{$name}{
         background:var(--ni-#{$name})
     }
-    .\:border-#{$name}{
+    .border-#{$name}{
         border-color: var(--ni-#{$name});
     }
 
 }
 
-@for $i from 1 through 50 { 
+@for $i from 1 through 30 { 
     .rounded-#{$i}rem {
         border-radius: #{$i}rem;
         -webkit-border-radius:#{$i}rem;
@@ -37,6 +37,40 @@
         -ms-border-radius:#{$i}#{$per};
         -o-border-radius:#{$i}#{$per};
 	}	
+    
+
+    .rounded-tbl-#{$i}{
+        border-top-left-radius: #{$i}px;
+        border-bottom-left-radius: #{$i}px;
+    }
+    .rounded-tbr-#{$i}{
+        border-top-right-radius: #{$i}px;
+        border-bottom-right-radius: #{$i}px;
+    }
+    .rounded-tl-#{$i}px{
+        border-top-left-radius: #{$i}px;
+    }
+    .rounded-tr-#{$i}px{
+        border-top-right-radius: #{$i}px;
+    }
+    .rounded-br-#{$i}px{
+        border-bottom-right-radius: #{$i}px;
+    }
+    .rounded-bl-#{$i}px{
+        border-bottom-left-radius: #{$i}px;
+    }
+    .rounded-tl-#{$i}rem{
+        border-top-left-radius: #{$i}rem;
+    }
+    .rounded-tr-#{$i}rem{
+        border-top-right-radius: #{$i}rem;
+    }
+    .rounded-br-#{$i}rem{
+        border-bottom-right-radius: #{$i}rem;
+    }
+    .rounded-bl-#{$i}rem{
+        border-bottom-left-radius: #{$i}rem;
+    }
 }
 
 @for $i from 1 through 10 { 
@@ -131,6 +165,7 @@
         background: -webkit-linear-gradient(45deg, var(--ni-#{$name}), var(--ni-#{$pink}));
         @include text-gradient;
     }
+
 
 }
 

@@ -98,17 +98,21 @@ $colors:(
     "danger",
     "warning",
     "success",
+    "light",
+    "dark",
     "primary"
-);
+) !default;
 
-$gray:"gray";
-$red:"red";
-$yellow:"yellow";
-$greengray:"greengray";
-$blue:"blue";
-$purplegray:"purplegray";
-$purple:"purple";
-$pink:"pink";
+$gray:"gray"!default;
+$red:"red"!default;
+$yellow:"yellow"!default;
+$greengray:"greengray"!default;
+$blue:"blue"!default;
+$purplegray:"purplegray"!default;
+$purple:"purple"!default;
+$pink:"pink"!default;
+$dark:"#000"!default;
+$light:"#fff"!default;
 
 $colorroot:(
     "gray":"#4b5563",
@@ -203,8 +207,10 @@ $colorroot:(
     "danger":"var(--ni-red)",
     "warning":"var(--ni-yellow)",
     "success":"var(--ni-greengray)",
+    "light":"#fff",
+    "dark":"#000",
     "primary":"var(--ni-pink)"
-);
+)!default;
 
 
 
@@ -214,7 +220,6 @@ $colorroot:(
 $icon-path:         "../fonts" !default;
 $icon-display:      "block" !default;
 $css-prefix:        "ni" !default;
-$version:           "1.0.2" !default;
 
 
 
@@ -3544,7 +3549,7 @@ $ni-doutone:(
     "x-ray":"\10f497",
     "yen-sign":"\10f157",
     "yin-yang":"\10f6ad"
-);
+)!default;
 
 
 $font-size:(
@@ -3555,7 +3560,7 @@ $font-size:(
     "md":"16px",
     "sm":"13px",
     "xs":"8px"
-);
+)!default;
 $screen-size:(
     "xxxl": "1920px",
     "xxl": "1400px",
@@ -3563,5 +3568,19 @@ $screen-size:(
     "lg": "992px",
     "md": "768px",
     "sm": "576px",
-    "xs": "450px",
-);
+)!default;
+
+$cols:(
+    "col-1",
+    ".col-2",
+    ".col-3",
+    ".col-4",
+    ".col-5",
+    ".col-6",
+    ".col-7",
+    ".col-8",
+    ".col-9",
+    ".col-10",
+    ".col-11",
+    ".col-12",
+)
